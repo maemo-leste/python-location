@@ -1,9 +1,9 @@
-#!/usr/bin/python2.5
+#!/usr/bin/python2
 import sys
 import glob
 from distutils.core import setup
 
-sys.path.append("/usr/share/pygtk/2.0")
+sys.path.append("/usr/share/pygobject/2.0")
 from dsextras import BuildExt, TemplateExtension, getoutput
 
 defsdir = getoutput("pkg-config --variable=defsdir pygtk-2.0")
@@ -28,7 +28,7 @@ location = TemplateExtension(name = "location",
                                                    "-DMAEMO_GTK",
                                                    "-Werror",
                                                   ],
-                             extra_link_args = ["-Wl,-zdefs", "-lpython2.5"],
+                             extra_link_args = ["-Wl,-zdefs", "-lpython2.7"],
                             )
 
 extensions.append(location)
