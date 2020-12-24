@@ -73,4 +73,10 @@
   (return-type "none")
 )
 
+(define-method get_allowed_methods
+  (of-object "LocationGPSDControl")
+  (c-name "location_gpsd_control_get_allowed_methods")
+  (return-type "gint")
+)
+
 

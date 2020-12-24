@@ -11,7 +11,7 @@
   )
 )
 
-(define-flags GPSDeviceSet
+(define-enum GPSDeviceSet
    (in-module "Location")
    (c-name "LocationGPSDeviceSet")
    (gtype-id "LOCATION_TYPE_GPS_DEVICE_SET")

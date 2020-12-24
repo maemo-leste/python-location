@@ -23,7 +23,7 @@ location_gps_device_set_get_type (void)
 {
     static GType etype = 0;
     if (etype == 0) {
-        static const GFlagsValue values[] = {
+        static const GEnumValue values[] = {
             { LOCATION_GPS_DEVICE_NONE_SET, "LOCATION_GPS_DEVICE_NONE_SET", "none" },
             { LOCATION_GPS_DEVICE_ALTITUDE_SET, "LOCATION_GPS_DEVICE_ALTITUDE_SET", "altitude" },
             { LOCATION_GPS_DEVICE_SPEED_SET, "LOCATION_GPS_DEVICE_SPEED_SET", "speed" },
@@ -33,7 +33,7 @@ location_gps_device_set_get_type (void)
             { LOCATION_GPS_DEVICE_TIME_SET, "LOCATION_GPS_DEVICE_TIME_SET", "time" },
             { 0, NULL, NULL }
         };
-        etype = g_flags_register_static ("LocationGPSDeviceSet", values);
+        etype = g_enum_register_static ("LocationGPSDeviceSet", values);
     }
     return etype;
 }
