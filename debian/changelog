@@ -1,3 +1,9 @@
+python-location (0.1.1) unstable; urgency=low
+
+  * Initial Leste release.
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 24 Dec 2020 12:59:10 +0100
+
 python-location (0.1) unstable; urgency=low
 
   * Initial Release.
