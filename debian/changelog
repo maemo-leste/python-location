@@ -1,3 +1,9 @@
+python-location (0.1.2) unstable; urgency=low
+
+  * Fix warning, update definitions
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 24 Dec 2020 14:26:57 +0100
+
 python-location (0.1.1) unstable; urgency=low
 
   * Initial Leste release.
