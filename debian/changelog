@@ -1,3 +1,9 @@
+python-location (0.1.3) unstable; urgency=low
+
+  * Ignore deprecation GParameters warnings
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 03 Dec 2022 19:04:24 +0100
+
 python-location (0.1.2) unstable; urgency=low
 
   * Fix warning, update definitions
