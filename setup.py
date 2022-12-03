@@ -27,6 +27,7 @@ location = TemplateExtension(name = "location",
                              extra_compile_args = ["-DMAEMO_CHANGES",
                                                    "-DMAEMO_GTK",
                                                    "-Werror",
+                                                   "-Wno-deprecated-declarations",
                                                   ],
                              extra_link_args = ["-Wl,-zdefs", "-lpython2.7"],
                             )
